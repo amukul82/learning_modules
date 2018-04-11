@@ -44,13 +44,13 @@
   }
   ```
 * Avoid disinformation
-  ** Avoid words whose entrenched meaning vary from our intended meaning.
-  ** Avoid using names which vary in small ways.
-  ** Spell similar concepts similarly.
+  * Avoid words whose entrenched meaning vary from our intended meaning.
+  * Avoid using names which vary in small ways.
+  * Spell similar concepts similarly.
 * Make meaningful distinctions
-  ** Avoid adding number series or noise words for distinctions. If names must be different, then they should mean something different.
+  * Avoid adding number series or noise words for distinctions. If names must be different, then they should mean something different.
 * Use pronounceable names 
-  ** Avoid <i>DtaRecrd</i>, use <i>DataRecord</i>.
+  * Avoid <i>DtaRecrd</i>, use <i>DataRecord</i>.
 * Use searchable names
-  ** Avoid simgle letter names and numeric constants as they are not east to locate in a body of text.
-  ** The length of a variable should correspond to the size of its scope.
+  * Avoid simgle letter names and numeric constants as they are not east to locate in a body of text.
+  * The length of a variable should correspond to the size of its scope.

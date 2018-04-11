@@ -11,34 +11,46 @@
 
 #### Meaningful names
 
-* Use intention-revealing names : The name of a variable, function or class should tell you why it exists, what it does, and how it is used.
+* Use intention-revealing names
+  ** The name of a variable, function or class should tell you why it exists, what it does, and how it is used.
 
-Examples:
+  Examples:
 
-Bad Code:
-```int d; //elapsed time in days```
+  Bad Code:
+  ```int d; //elapsed time in days```
 
-Good Code:
-```int elapsedTimeInDays;```
+  Good Code:
+  ```int elapsedTimeInDays;```
 
-Bad Code:
-```
-public List<int[]> getThem() {
-  List<int[]> list1 = new ArrayList<int[]>();
-  for(int[] x : theList11)
-    if(x[0] == 4)
-      lsit1.add(x);
-  return list1;
-}
-```
+  Bad Code:
+  ```
+  public List<int[]> getThem() {
+    List<int[]> list1 = new ArrayList<int[]>();
+    for(int[] x : theList11)
+      if(x[0] == 4)
+        lsit1.add(x);
+    return list1;
+  }
+  ```
 
-Good Code:
-```
-public List<int[]> getFlaggedCells() {
-  List<int[]> flaggedCells = new ArrayList<int[]>();
-  for(int[] cell : gameBoard)
-    if(cel[STATUS_VALUE] == FLAGGED)
-      flaggedCells.add(cell);
-  return flaggedCells;
-}
-```
+  Good Code:
+  ```
+  public List<int[]> getFlaggedCells() {
+    List<int[]> flaggedCells = new ArrayList<int[]>();
+    for(int[] cell : gameBoard)
+      if(cel[STATUS_VALUE] == FLAGGED)
+        flaggedCells.add(cell);
+    return flaggedCells;
+  }
+  ```
+* Avoid disinformation
+  ** Avoid words whose entrenched meaning vary from our intended meaning.
+  ** Avoid using names which vary in small ways.
+  ** Spell similar concepts similarly.
+* Make meaningful distinctions
+  ** Avoid adding number series or noise words for distinctions. If names must be different, then they should mean something different.
+* Use pronounceable names 
+  ** Avoid <i>DtaRecrd</i>, use <i>DataRecord</i>.
+* Use searchable names
+  ** Avoid simgle letter names and numeric constants as they are not east to locate in a body of text.
+  ** The length of a variable should correspond to the size of its scope.

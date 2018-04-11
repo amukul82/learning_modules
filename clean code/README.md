@@ -12,11 +12,9 @@
 #### Meaningful names
 
 * Use intention-revealing names : The name of a variable, function or class should tell you why it exists, what it does, and how it is used.
+Examples:
+Bad Code:
+```int d; //elapsed time in days```
+Good Code:
+```int elapsedTimeInDays;```
 
-| Bad Code | Good Code |
-| :---: | :---: |
-| ```int d; //elapsed time in days``` | ```int elapsedTimeInDays;``` |
-| ```public List<int[]> getThem(){
-        return null;
-     }
-  ``` |  |

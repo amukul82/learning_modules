@@ -1,6 +1,6 @@
 ### Design Patterns
 
-#### Singleton vs Dependency Injection
+#### Singleton vs Dependency Injection (http://enterprisecraftsmanship.com/2016/05/03/singleton-vs-dependency-injection/)
 
 Singleton classes are the ones which have only one instance of of that class for the whole application lifetime.
 

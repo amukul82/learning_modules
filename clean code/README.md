@@ -59,3 +59,11 @@
   * Methods should have verb or verb phrase names. 
   Note: In java, accessors , mutators and predicates should be named for their value and prefixed with <i>get</i>, <i>set</i> and <i>is</i> according to javabean standard.
  * Add meaningful context to variable, method and class names. Avoid using prefixes for context(Eg. customerFirstName).
+
+#### Functions
+
+* Functions should be small.
+ * Blocks within <i>if</i>, <i>else</i>, <i>while</>  and so on statements should be one line long. Probably that line should be a function call. It keeps the function small and function called within the block can have a descriptive name.
+ * Functions should not be large enough to hold nested structures. Therefore, indent level of a function should not be greater than one or two.
+* Function should do <i>one thing</i>. They should di it <i>well</i>. They should do it <i>only</i>.
+* One level of abstraction per function - statements within our function should all be at same level of abstraction.

@@ -63,7 +63,7 @@
 #### Functions
 
 * Functions should be small.
- * Blocks within <i>if</i>, <i>else</i>, <i>while</>  and so on statements should be one line long. Probably that line should be a function call. It keeps the function small and function called within the block can have a descriptive name.
+ * Blocks within <i>if</i>, <i>else</i>, <i>while</i>  and so on statements should be one line long. Probably that line should be a function call. It keeps the function small and function called within the block can have a descriptive name.
  * Functions should not be large enough to hold nested structures. Therefore, indent level of a function should not be greater than one or two.
-* Function should do <i>one thing</i>. They should di it <i>well</i>. They should do it <i>only</i>.
+* Function should do <i>one thing</i>. They should do it <i>well</i>. They should do it <i>only</i>.
 * One level of abstraction per function - statements within our function should all be at same level of abstraction.

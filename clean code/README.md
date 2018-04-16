@@ -54,11 +54,11 @@
 * Use searchable names
   * Avoid single letter names and numeric constants as they are not east to locate in a body of text.
   * The length of a variable should correspond to the size of its scope.
- * Class names and Method names
+* Class names and Method names
   * Class and objects should have noun or noun phrase names (eg. Customer, Account). A class name should not be a verb.
   * Methods should have verb or verb phrase names. 
   Note: In java, accessors , mutators and predicates should be named for their value and prefixed with <i>get</i>, <i>set</i> and <i>is</i> according to javabean standard.
- * Add meaningful context to variable, method and class names. Avoid using prefixes for context(Eg. customerFirstName).
+  * Add meaningful context to variable, method and class names. Avoid using prefixes for context(Eg. customerFirstName).
 
 #### Functions
 

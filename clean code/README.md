@@ -63,17 +63,17 @@
 #### Functions
 
 * Functions should be small.
- * Blocks within <i>if</i>, <i>else</i>, <i>while</i>  and so on statements should be one line long. Probably that line should be a function call. It keeps the function small and function called within the block can have a descriptive name.
- * Functions should not be large enough to hold nested structures. Therefore, indent level of a function should not be greater than one or two.
+  * Blocks within <i>if</i>, <i>else</i>, <i>while</i>  and so on statements should be one line long. Probably that line should be a function call. It keeps the function small and function called within the block can have a descriptive name.
+  * Functions should not be large enough to hold nested structures. Therefore, indent level of a function should not be greater than one or two.
 * Function should do <i>one thing</i>. They should do it <i>well</i>. They should do it <i>only</i>.
 * One level of abstraction per function - statements within our function should all be at same level of abstraction.
 * Switch statements
- * Switch statements always do N things, so it's important to take care of these.
- * Try to avoid switch statements, if not possible then make sure each switch statement is buried in a low-level class and is never repeated. This can be achieved using polymorphism.
- * General rule: switch statements should appear only once, are used to create polymorphic objects, and are hidden behind an inheritance relationship so that rest of the system can't see them.
+  * Switch statements always do N things, so it's important to take care of these.
+  * Try to avoid switch statements, if not possible then make sure each switch statement is buried in a low-level class and is never repeated. This can be achieved using polymorphism.
+  * General rule: switch statements should appear only once, are used to create polymorphic objects, and are hidden behind an inheritance relationship so that rest of the system can't see them.
 * Use descriptive names
- * The smaller and more focused the function is, the easier it is to choose a descriptive name.
- * A long descriptive name is better than a short enigmatic name.
- * A long descriptive name is better than a long descriptive comment.
- * Choosing descriptive names wil clarify the design of the module in your mind.
- * Be consistent in your names. Use the same phrases, nouns, and verbs in the function names you choose for your module.
+  * The smaller and more focused the function is, the easier it is to choose a descriptive name.
+  * A long descriptive name is better than a short enigmatic name.
+  * A long descriptive name is better than a long descriptive comment.
+  * Choosing descriptive names wil clarify the design of the module in your mind.
+  * Be consistent in your names. Use the same phrases, nouns, and verbs in the function names you choose for your module.

@@ -10,3 +10,5 @@ Ambient dependencies are the ones which span accross multiple classes and often 
 
 * If a dependency is ambient, use singletons.
 * Otherwise, inject it to the dependent classes using the dependency injection pattern.
+
+#### Singleton Design Pattern (https://www.journaldev.com/1377/java-singleton-design-pattern-best-practices-examples)
